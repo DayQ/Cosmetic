@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/fondo4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/perfumeslogo" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="PERFUMES"
+                    android:id="@+id/button8"
+                    android:onClick="mperfume"
+                    style="@style/AppTheme"
+                    android:background="#f75af7"
+                    android:backgroundTint="#cc50eb"
+                    android:textSize="25sp"
+                    android:textColor="#0d0981"
+                    android:layout_gravity="center_vertical"
+                     />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                android:src="@drawable/accesorio"
+                android:id="@+id/imageView4" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="ACCESORIOS"
+                    android:onClick="maccesorios"
+                    style="@style/AppTheme"
+                    android:id="@+id/button9"
+                    android:background="#f75af7"
+
+                    android:textSize="25sp"
+                    android:textColor="#0d0981"
+                    android:layout_gravity="center_vertical"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                android:src="@drawable/maquillaj"
+                android:id="@+id/imageView5"
+                android:layout_gravity="center_horizontal" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="MAQUILLAJE"
+                    android:onClick="mmaquillaje"
+                    android:textSize="25sp"
+                    android:textColor="#0d0981"
+                    android:background="#f75af7"
+                    android:layout_weight="1.20" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                android:src="@drawable/boutique"
+                android:id="@+id/imageView6" />
+                <Button
+                    android:layout_width="500dp"
+                    android:layout_height="40dp"
+                    android:text="BOUTIQUE"
+                    android:onClick="mboutique"
+                    android:id="@+id/button11"
+                    android:background="#f75af7"
+                    android:textSize="25sp"
+                    android:textColor="#0d0981"
+                    android:layout_weight="0.95" />
+
+
+
+
+
+
+        </LinearLayout>
+     </ScrollView>
+
+</LinearLayout>

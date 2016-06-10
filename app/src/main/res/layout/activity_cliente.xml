@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/fondo3">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="E1"
+        android:id="@+id/imageButton"
+        android:src="@drawable/ellas"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="50dp"
+        android:background="#e609a7"
+        android:layout_weight="0.11" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="174dp"
+            android:layout_height="174dp"
+            android:src="@drawable/ellos"
+            android:onClick="ellos"
+            android:scaleType="fitXY"
+            android:id="@+id/imageButton2"
+            android:background="#e609a7"
+            android:clickable="true"
+            android:layout_marginRight="8dp" />
+
+        <ImageButton
+            android:layout_width="174dp"
+            android:layout_height="174dp"
+            android:src="@drawable/ninos"
+            android:onClick="ninos"
+            android:scaleType="fitXY"
+            android:id="@+id/imageButton3"
+            android:layout_weight="0.45"
+            android:background="#e609a7"
+            android:clickable="true" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/fondo4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ESCOGE TU PRODUCTO"
+        android:id="@+id/textView41"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="PERFUMESt"
+                android:id="@+id/textView44"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25sp"
+                android:textColor="#f5ee15" />
+
+            <ImageButton
+                android:layout_width="376dp"
+                android:layout_height="150dp"
+                android:onClick="vperfumes"
+                android:src="@drawable/perfvaron"
+                android:id="@+id/vp1"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:background="@color/accent_material_light"
+                android:layout_weight="0.34" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ACCESORIOS"
+                android:id="@+id/textView42"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25sp"
+                android:textColor="#f5ee15"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="vaccesorios"
+                android:src="@drawable/accevaron"
+                android:background="@color/accent_material_light"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="PIEL"
+                android:id="@+id/textView43"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25sp"
+                android:textColor="#f5ee15"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="piel"
+                android:src="@drawable/cremasvaron"
+                android:background="@color/accent_material_light"
+                />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="ROPA"
+    android:id="@+id/textView45"
+    android:layout_gravity="center_horizontal"
+    android:textSize="25sp"
+    android:textColor="#f5ee15"
+    />
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="ropav"
+                android:src="@drawable/boutiquevaron"
+                android:background="@color/accent_material_light"/>
+
+
+           </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

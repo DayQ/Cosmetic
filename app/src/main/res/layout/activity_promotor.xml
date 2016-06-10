@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/fondo4">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DATOS PERSONALES                 PROMOTOR / PROMOTORA"
+        android:id="@+id/textView52"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#d720da"
+        android:layout_margin="12dp"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="USUARIO"
+            android:id="@+id/textView" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_weight="2.56" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.18"
+        android:layout_margin="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CONTRASEÑA"
+            android:id="@+id/textView2" />
+
+        <EditText
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:text="INGRESAR"
+            android:onClick="ingresar"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="50dp"
+            android:layout_weight="0.27"
+            android:background="#c8e787fa"
+            android:textSize="25sp"
+            android:textColor="#375ffc" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:text="SALIR"
+            android:onClick="salir"
+            android:id="@+id/button4"
+            android:layout_weight="0.18"
+            android:background="#c8e787fa"
+            android:textSize="25sp"
+            android:textColor="#375ffc" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.daysi.bellezacerca">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PromotorActivity" />
+        <activity android:name=".ClienteActivity" />
+        <activity android:name=".PromPrincipalActivity" />
+        <activity android:name=".EllasActivity" />
+        <activity android:name=".Ellos_Activity" />
+        <activity android:name=".NinosActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".InformacionOfertas" />
+        <activity android:name=".Mperfumeria" />
+        <activity android:name=".Maccesorios" />
+        <activity android:name=".ControlClienteProducto" />
+        <activity android:name=".Compras" />
+        <activity android:name=".Mmaquillaje" />
+        <activity android:name=".Cremas" />
+        <activity android:name=".Smalte" />
+        <activity android:name=".Mboutique" />
+        <activity android:name=".Vperfumes" />
+        <activity android:name=".Vaccesorios" />
+        <activity android:name=".Vpiel" />
+        <activity android:name=".Vropa" />
+        <activity android:name=".LocionKids" />
+        <activity android:name=".RopaKids" />
+        <activity android:name=".Babys" />
+        <activity android:name=".AccesoriosKids" />
+        <activity android:name=".ofertas"></activity>
+    </application>
+
+</manifest>
